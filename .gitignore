@@ -1,0 +1,15 @@
+# build artifacts — zips and the unpacked portable tree are distributed via Releases, not git
+*.zip
+*.msi
+*.exe
+app/
+CloudStreamData/
+
+# scratch
+*.bak_*
+*.log
+Thumbs.db
+desktop.ini
+
+# stale checksum sheet (listed builds that were never produced)
+checksums.txt
